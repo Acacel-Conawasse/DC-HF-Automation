@@ -1,0 +1,51 @@
+function findAndDoubleClickThenClickLink() {
+    // Selector for the scrollable container of the grid
+    const scrollContainer = document.querySelector('.ui-grid-viewport');
+
+    // Function to scroll and search for the cell
+    function scrollToFindCell() {
+        const targetCell = document.querySelector('.ui-grid-cell-contents[title=""]');
+
+        // Check if the target cell is found
+        if (targetCell) {
+            // Create and dispatch a double-click event
+            const dblClickEvent = new MouseEvent('dblclick', {
+                bubbles: true,
+                cancelable: true,
+                view: window
+            });
+            targetCell.dispatchEvent(dblClickEvent);
+            console.log('Double-click event triggered on the target cell.');
+
+            // Ensure the interval is cleared here
+            clearInterval(intervalId);
+
+            // Set a timeout to wait for any modal or UI updates to complete
+            setTimeout(() => {
+                const editLink = document.querySelector('span.condition-add-link[title="Add or Edit Conditions"]');
+                if (editLink) {
+                    editLink.click();
+                    console.log('Clicked on the "Add or Edit Conditions" link.');
+                } else {
+                    console.log('Link to "Add or Edit Conditions" not found.');
+                }
+            }, 500); // Adjust timeout as needed based on the UI response time
+
+            return; // Stop further execution after finding and clicking
+        } else {
+            // Scroll a bit more each interval until the bottom is reached
+            if (scrollContainer.scrollTop < scrollContainer.scrollHeight - scrollContainer.clientHeight) {
+                scrollContainer.scrollTop += 100; // Adjust scroll step size as necessary
+            } else {
+                console.log('Reached the end of the list and did not find the target cell.');
+                clearInterval(intervalId); // Stop the interval when end is reached
+            }
+        }
+    }
+
+    // Set an interval to repeatedly scroll and search
+    const intervalId = setInterval(scrollToFindCell, 200); // Adjust timing as needed
+}
+
+// Call the function to execute the operation
+findAndDoubleClickThenClickLink();
