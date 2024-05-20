@@ -1,0 +1,55 @@
+DC1 EXP Int'l/Ecom 1st has been susccessfully createdDC1 EXP Int'l/Ecom 2nd has been susccessfully createdDC1 EXP PTL 1st has been susccessfully createdDC1 EXP PTL 2nd has been susccessfully createdDC1 EXP Receiving 1st has been susccessfully createdDC1 EXP Receiving 2nd has been susccessfully createdDC1 EXP Reserve/CP 1st has been susccessfully createdDC1 EXP Reserve/CP 2nd has been susccessfully createdDC1 EXP Sorter 1st has been susccessfully createdDC1 EXP Sorter 2nd has been susccessfully createdDC7 BBW Brand Coordination 1st has been susccessfully created
+DC7 BBW FC/Putaway 2nd has been susccessfully created
+DC7 BBW Full Case 1st has been susccessfully created
+DC7 BBW Full Case 3rd has been susccessfully created
+DC7 BBW Full Case 4th has been susccessfully created
+DC7 BBW Inbound 1st has been susccessfully created
+DC7 BBW Inbound 2nd has been susccessfully created
+DC7 BBW Inbound 3rd has been susccessfully created
+DC7 BBW Inbound 4th has been susccessfully created
+DC7 BBW Inventory Control 1st has been susccessfully created
+DC7 BBW Inventory Control 4th has been susccessfully created
+DC7 BBW LPAS 1st has been susccessfully created
+DC7 BBW LPAS 2nd has been susccessfully created
+DC7 BBW LPAS 3rd has been susccessfully created
+DC7 BBW LPAS 4th has been susccessfully created
+DC7 BBW LTFC 1st has been susccessfully created
+DC7 BBW LTFC 2nd has been susccessfully created
+DC7 BBW LTFC 3rd has been susccessfully created
+DC7 BBW LTFC 4th has been susccessfully created
+DC7 BBW Other 1st has been susccessfully created
+DC7 BBW Other 3rd has been susccessfully created
+DC7 BBW Other 4th has been susccessfully created
+DC7 BBW Replens 1st has been susccessfully created
+DC7 BBW Replens 2nd has been susccessfully created
+DC7 BBW Replens 3rd has been susccessfully created
+DC7 BBW Replens 4th has been susccessfully created
+DC7 BBW Training 1st has been susccessfully created
+DC7 BBW Training 2nd has been susccessfully created
+DC7 BBW Training 3rd has been susccessfully created
+DC7 BBW Training 4th has been susccessfully created
+DC7 BBW VAS/Special Projects 1st has been susccessfully created
+DC7 BBW WCS 1st has been susccessfully created
+DC7 BBW WCS/IC/BC 2nd has been susccessfully created
+DC7 BBW WCS/IC/BC 3rd has been susccessfully created
+DC7 Hours has been susccessfully created
+DC8 All Pack and Hold 1st has been susccessfully created
+DC8 All Pack and Hold 2nd has been susccessfully created
+DC8 All Pick Mod 1st has been susccessfully created
+DC8 All Pick Mod 2nd has been susccessfully created
+DC8 All Receiving 1st has been susccessfully created
+DC8 All Receiving 2nd has been susccessfully created
+DC8 All Reserve 1st has been susccessfully created
+DC8 All Reserve 2nd has been susccessfully created
+DC8 All Shipping 1st has been susccessfully created
+DC8 All Shipping 2nd has been susccessfully created
+DC8 All Sortation 1st has been susccessfully created
+DC8 All Sortation 2nd has been susccessfully created
+DC9 FH Assembly/Manual Prep has been susccessfully created
+DC9 FH DCFC has been susccessfully created
+DC9 FH Replen * has been susccessfully created
+DC9 Front Half has been susccessfully created
+DC9 PM FTW Peak 2023 has been susccessfully created
+DC9 PM Picking Peak 2023 has been susccessfully created
+DC9 Replen BH has been susccessfully created
+DC9 Replen FH has been susccessfully created

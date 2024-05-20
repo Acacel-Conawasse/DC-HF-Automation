@@ -4,7 +4,7 @@ function findAndDoubleClickThenClickLink() {
 
     // Function to scroll and search for the cell
     function scrollToFindCell() {
-const targetCell = document.querySelector('.ui-grid-cell-contents[title="DC1 All 1st Shift"]');
+const targetCell = document.querySelector('.ui-grid-cell-contents[title="DC9 Replen FH"]');
 
         // Check if the target cell is found
         if (targetCell) {
